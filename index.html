@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Product Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="all-container">
+            <!-- HEADER -->
+            <header id="header">
+                <div class="logo">
+                    <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Dulce_de_leche_muffins.jpg"
+                    alt="Magdalenas con dulce de leche"/>
+                </div>
+                
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="#about-us" class="nav-link">About us</a></li>
+                        <li><a href="#prep-example" class="nav-link">Preparation example</a></li>
+                        <li><a href="#some-recipes" class="nav-link">Some recipes</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="container">
+                <!-- About us -->
+                <section id="about-us">
+                    <h2>About us</h2>
+                    <p>We hope you are interested in cooking. If so, we present you here the recipes of 
+                    some of our favorite Cuban desserts, as this is our specialty. If you want more 
+                    detailed information on how to prepare these delicious desserts or have already become 
+                    an expert and would like to try new ones, we encourage you to contact us. Enter your 
+                    email address below and submit it and soon you will receive more recipes to test your 
+                    culinary skills. We wish you good luck.</p>
+                </section>
+
+                 <!-- EMAIL -->
+                <section id="submit-email">
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input name="email" id="email" type="email" placeholder="Enter your email address" 
+                        required/>
+                        <br>
+                        <input id="submit" type="submit" value="Submit" class="btn"/>
+                    </form>
+                </section>
+    
+                
+                <!-- Preparation example -->
+                <section id="prep-example">
+                    <h2>Preparation example</h2>
+                    <iframe id="video" src="https://www.youtube-nocookie.com/embed/VTdueAbOxaY?rel=0&amp;
+                    controls=0&amp;showinfo=0" height="315" allowfullscreen></iframe>
+                </section>
+    
+                <!-- Some recipes -->
+                <section id="some-recipes">
+                    <div class="recipes" id="arroz-con-leche">
+                        <div class="dessert">Arroz con leche</div>
+                        <p>It is a dessert that is made by cooking the rice with
+                         milk, sugar and a cinnamon stick until it is very soft 
+                         and creamy. It is consumed cold and in one of its Creole 
+                         versions it can be prepared adding to it fresh shredded 
+                         coconut.</p>
+                    </div>
+
+                    <div class="recipes" id="flan">
+                        <div class="dessert">Flan de leche condensada</div>
+                        <p>To a can of condensed milk add a cup of evaporated milk,
+                         5 eggs and a teaspoon of vanilla, beat well and the mixture 
+                         is deposited in a container whose interior has been previously
+                         covered with a caramel. Cover with baking paper and cook in 
+                         a bain-marie for 1 hour (30 minutes if under pressure).Allow 
+                         to cool at least 2 hours before unmolding.</p>
+                    </div>
+
+                    <div class="recipes" id="dulce-leche">
+                        <div class="dessert">Dulce de leche cortada</div>
+                        <p>If the milk was cut, do not throw it away! Add a good amount
+                         of sugar and let the mixture boil until it thickens. If you 
+                         add a piece of lemon or orange rind, the result will be even 
+                         better. An exquisite sweet that you will surely have to 
+                         repeat.</p>
+                    </div>
+                </section>
+            </div>
+
+            <footer>
+                <span>Coded by Lianet Vazquez, 2018.</span>
+            </footer>
+        </div>
+    </body>
+</html>
